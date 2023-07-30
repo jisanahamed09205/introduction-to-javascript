@@ -13,3 +13,34 @@ var price2 = 10;
 //add some value to the existing value
 price1 = price1 + 10;
 console.log(price1);
+
+//addition to the same variable shorthand
+
+// +=means adding some value to the existing value
+
+price1 += 10;
+console.log(price1);
+
+
+price2 = price2 - 5;
+//shorthand -=
+// -= means deducting some values from the current value of the variable
+price2 -= 5;
+
+price1 *= 5;
+console.log(price1);
+
+
+price1 /= 5;
+console.log(price1);
+
+
+var age = 15;
+var age = age +1;
+// ++ means adding 1 to the existing value
+age++;
+
+var love = 100;
+love = love - 1;
+// -- means adding 1 to the existing value
+love--;
